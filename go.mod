@@ -1,4 +1,4 @@
-module autobot
+module github.com/divy-sh/autobot
 
 go 1.25.1
 
