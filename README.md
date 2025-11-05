@@ -1,11 +1,43 @@
-# autobot
-An application to keep your device active and your teams activity as available.  Built using Golang
+# Autobot 🚀
 
-## How to Run
+**Autobot** is a lightweight CLI tool built with **Golang** that keeps your device active and maintains your team’s availability status automatically.
+
+---
+
+## Features
+- Prevents your system from going idle.
+- Keeps your team status active.
+- Simple command-line interface.
+
+---
+
+## Installation
+Make sure you have [Go](https://golang.org/dl/) installed, then install **Autobot**:
+
+```bash
+go install github.com/divy-sh/autobot@latest
 ```
-autobot -seconds=<time interval in seconds between each sleep timer reset>
+
+---
+
+## Usage
+Run the program in your terminal:
+
+```bash
+autobot -seconds=<interval>
 ```
-e.g.
+
+- `<interval>` (optional) — Time interval in seconds to reset the sleep timer. Default behavior is automatic if not specified.
+
+**Example:**
+
+```bash
+autobot -seconds=60
 ```
-autobot -seconds=60 // will 
-```
+
+This will reset the sleep timer every 60 seconds.
+
+---
+
+## License
+MIT License
